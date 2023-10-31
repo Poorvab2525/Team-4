@@ -53,19 +53,28 @@ The counter is used to calculate and modify the speed of the vehicle based on th
 
 ## Team Members
 
-1. Bhagwat Poorva Milind 
-221CS212 
+1. Bhagwat Poorva Milind
+   
+221CS212
+
 bhagwatpoorvamilind.221cs212@nitk.edu.in 
+
 8275391841 
  
-2. Preetha Sarkar 
+2. Preetha Sarkar
+   
 221CS236 
+
 preethasarkar.221cs236@nitk.edu.in 
+
 6292253051 
  
-3. Reema Murthy 
+3. Reema Murthy
+   
 221CS240 
+
 reemamurthy.221cs240@nitk.edu.in 
+
 9481646942 
 
 
