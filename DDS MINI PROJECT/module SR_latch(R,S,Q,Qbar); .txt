@@ -1,8 +1,0 @@
-module SR_latch(R,S,Q,Qbar); 
-  input R;
-  input S;
-  output Q;
-  output Qbar;
-  nand (Qbar, R, Q); 
-  nand(Q, S, Qbar); 
-endmodule
