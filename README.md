@@ -53,6 +53,7 @@ The counter is used to calculate and modify the speed of the vehicle based on th
 
 ![DDS_working](https://github.com/Poorvab2525/Team-4/assets/127173860/6cde200b-8a8d-4a91-8d7a-167e78903be5)
 
+FUNCTIONAL TABLE
 
 ![image](https://github.com/Poorvab2525/Team-4/assets/127173860/7313f088-2e32-4212-a327-9c81f49b03e6)
 
