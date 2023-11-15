@@ -11,7 +11,7 @@ Project Title - AUTOMATED BRAKING SYSTEM
 
 •	Counters 
 
-•	Digital circuits
+•	Register
 
 •	Sensor Integration
 
