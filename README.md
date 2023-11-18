@@ -29,6 +29,8 @@ Member 3. Reema Murthy
 
 reemamurthy.221cs240@nitk.edu.in 
 
+</details>
+
 ## Abstract
 <details>
 An automatic emergency braking system is a safety feature installed in vehicles to mitigate collisions and prevent accidents. Clock pulse from sensor output is generated.
