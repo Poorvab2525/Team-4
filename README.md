@@ -1,29 +1,33 @@
 ## Team-4
 Project Title - AUTOMATED BRAKING SYSTEM
 
-
-## Components
+## Team Members
 <details>
+
+Semester : 3rd Sem B.tech CSE
+Section - S2
+
+Member 1. Bhagwat Poorva Milind
+   
+221CS212
+
+bhagwatpoorvamilind.221cs212@nitk.edu.in 
+
+8275391841 
  
-•	Basic logic gates 
+Member 2. Preetha Sarkar
+   
+221CS236 
 
-•	Flip-flops 
+preethasarkar.221cs236@nitk.edu.in 
 
-•	Counters 
+6292253051 
+ 
+Member 3. Reema Murthy
+   
+221CS240 
 
-•	Register
-
-•	Sensor Integration
-
-• Proximity sensor
-
-•	Comparators
-
-•	7 segment display
-
-•	Proximity sensor
-</details>
-
+reemamurthy.221cs240@nitk.edu.in 
 
 ## Abstract
 <details>
@@ -33,14 +37,6 @@ A tracking type ADC is used to convert the analogue output of the proximity sens
 The counter is updated based on the changing outputs of the ADC.
 The logic for the braking system is implemented when the proximity sensor detects an obstacle.
 </details>
-
-
-## Unique Contribution
-<details>
-Automated braking systems can help prevent accidents and reduce the severity of collisions by applying brakes more quickly and effectively than a human driver. This directly contributes to road safety and can save lives. 
-Automated braking systems can also reduce property damage resulting from accidents, which can have a positive economic impact by lowering insurance claims and repair costs. 
-</details>
-
 
 ## Working of the project
 <details>
@@ -63,32 +59,12 @@ The counter is used to calculate and modify the speed of the vehicle based on th
 ![image](https://github.com/Poorvab2525/Team-4/assets/127173860/7313f088-2e32-4212-a327-9c81f49b03e6)
 </details>
 
-## Team Members
-<details>
-1. Bhagwat Poorva Milind
-   
-221CS212
+## Logisim Circuit Diagram
 
-bhagwatpoorvamilind.221cs212@nitk.edu.in 
+![DDS_main](https://github.com/Poorvab2525/Team-4/assets/127173860/46612fbf-a397-4e9e-a4c6-e76a43113a73)
 
-8275391841 
- 
-2. Preetha Sarkar
-   
-221CS236 
+## Verilog Code
 
-preethasarkar.221cs236@nitk.edu.in 
-
-6292253051 
- 
-3. Reema Murthy
-   
-221CS240 
-
-reemamurthy.221cs240@nitk.edu.in 
-
-9481646942 
-</details>
 
 
 
