@@ -73,7 +73,105 @@ The counter is used to calculate and modify the speed of the vehicle based on th
 
 ## Verilog Code
 
+<details>
 
+module 4-bit_up_down_counter (
+    input wire clk,
+    input wire rst,
+    input wire up,
+    input wire down,
+    output reg [3:0] count
+);
+    always @(posedge clk or posedge rst) begin
+        if (rst)
+            count <= 4'b0000;
+        else if (up)
+            count <= (count == 4'b1111) ? 4'b0000 : count + 1;
+        else if (down)
+            count <= (count == 4'b0000) ? 4'b1111 : count - 1;
+    end
+ 
+endmodule
 
+module 4-bit_tb_up_down_counter;
+    reg clk, rst, up, down;
+    wire [3:0] count;
+ 
+    up_down_counter uut (
+        .clk(clk),
+        .rst(rst),
+        .up(up),
+        .down(down),
+        .count(count)
+    );
+ 
+    initial begin
+        clk = 0;
+        rst = 1;
+        up = 0;
+        down = 0;
+        #10 rst = 0;
+    end
+ 
+    always begin
+        #5 clk = ~clk;
+    end
+ 
+    initial begin
+        $monitor("Time=%t, Count=%b", $time, count);
+        #20 up = 1;
+        #40 down = 1;
+        #60 up = 0;
+        #80 down = 0;
+        #100 $finish;
+    end
+ 
+endmodule
+
+module up_down_counter (
+    input wire clk,
+    input wire rst,
+    input wire up,
+    input wire down,
+    output reg [3:0] count
+);
+    always @(posedge clk or posedge rst) begin
+        if (rst)
+            count <= 4'b0000;
+        else if (up)
+            count <= (count == 4'b1111) ? 4'b0000 : count + 1;
+        else if (down)
+            count <= (count == 4'b0000) ? 4'b1111 : count - 1;
+    end
+
+endmodule
+
+module updowncounter_testbench();
+  reg clk, reset, up_down;
+  wire [3:0] counter;
+ 
+  up_down_counter dut (
+    .clk(clk),
+    .reset(reset),
+    .up_down(up_down),
+    .counter(counter)
+  );
+ 
+  initial begin 
+    clk = 0;
+    forever #5 clk = ~clk;
+  end
+ 
+  initial begin
+    reset = 1;
+    up_down = 0;
+    #20;
+    reset = 0;
+    #200;
+    up_down = 1;
+  end
+endmodule      
+
+</details>
 
 
