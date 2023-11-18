@@ -5,6 +5,7 @@ Project Title - AUTOMATED BRAKING SYSTEM
 <details>
 
 Semester : 3rd Sem B.tech CSE
+
 Section - S2
 
 Member 1. Bhagwat Poorva Milind
