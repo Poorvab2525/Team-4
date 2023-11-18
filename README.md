@@ -62,8 +62,8 @@ The counter is used to calculate and modify the speed of the vehicle based on th
 </details>
 
 ## Logisim Circuit Diagram
-<details>
 
+<details>
 ![DDS_main](https://github.com/Poorvab2525/Team-4/assets/127173860/46612fbf-a397-4e9e-a4c6-e76a43113a73)
 </details>
 
