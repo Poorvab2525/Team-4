@@ -58,13 +58,17 @@ The counter is used to calculate and modify the speed of the vehicle based on th
 
 ## Functional Table
 <details>
+   
 ![image](https://github.com/Poorvab2525/Team-4/assets/127173860/7313f088-2e32-4212-a327-9c81f49b03e6)
+
 </details>
 
 ## Logisim Circuit Diagram
 
 <details>
+   
 ![DDS_main](https://github.com/Poorvab2525/Team-4/assets/127173860/46612fbf-a397-4e9e-a4c6-e76a43113a73)
+
 </details>
 
 ## Verilog Code
