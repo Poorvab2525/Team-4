@@ -54,10 +54,11 @@ The S-R Latch of the ADC gives the final digital output.
 This digital output is stored in memory by another SR Latch, which is connected to a counter.
 The counter is used to calculate and modify the speed of the vehicle based on the output shown by the SR Latch. For example: If the proximity sensor gives an output of 5V, the ADC converts it to a binary number and the SR Latch stores this number. If the next output given by the proximity sensor is 4V the SR Latch uses the stored binary number and decides if speed should be increased or decreased.
 
-![DDS_working](https://github.com/Poorvab2525/Team-4/assets/127173860/6cde200b-8a8d-4a91-8d7a-167e78903be5)
+![image](https://github.com/Poorvab2525/Team-4/assets/147530829/109a5411-3c96-4d6d-a36d-4bb7725cbff5)
+
 </details>
 
- Functional Table
+ <b>Functional Table</b>
 <details>
    
 ![image](https://github.com/Poorvab2525/Team-4/assets/127173860/7313f088-2e32-4212-a327-9c81f49b03e6)
