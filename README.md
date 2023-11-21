@@ -168,5 +168,10 @@ The counter is used to calculate and modify the speed of the vehicle based on th
       endmodule      
       
 </details>
-      
+
+## References
+ https://www.geeksforgeeks.org/counter-type-analog-to-digital-converter-adc/ <br>
+ https://www.geeksforgeeks.org/counters-in-digital-logic/ <br>
+ https://www.geeksforgeeks.org/general-purpose-registers/ <br>
+ https://en.wikipedia.org/wiki/Automatic_braking <br>
 
