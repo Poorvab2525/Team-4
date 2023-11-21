@@ -1,38 +1,31 @@
-## Team-4
-Project Title - AUTOMATED BRAKING SYSTEM
+# Team-4
 
-## Team Details
+## Project Title - AUTOMATED BRAKING SYSTEM
+
+### Team Details
 <details>
 
 Semester : 3rd Sem B.tech CSE
 
 Section - S2
 
-Member 1. Bhagwat Poorva Milind
-   
+Member 1. Bhagwat Poorva Milind  
 221CS212
-
 bhagwatpoorvamilind.221cs212@nitk.edu.in 
-
-8275391841 
  
-Member 2. Preetha Sarkar
-   
-221CS236 
 
+Member 2. Preetha Sarkar
+221CS236 
 preethasarkar.221cs236@nitk.edu.in 
 
-6292253051 
  
-Member 3. Reema Murthy
-   
+Member 3. Reema Murthy 
 221CS240 
-
 reemamurthy.221cs240@nitk.edu.in 
 
 </details>
 
-## Abstract
+### Abstract
 <details>
 An automatic emergency braking system is a safety feature installed in vehicles to mitigate collisions and prevent accidents. Clock pulse from sensor output is generated.
 A tracking type ADC is used to convert the analogue output of the proximity sensor to a digital output.
@@ -41,7 +34,7 @@ The counter is updated based on the changing outputs of the ADC.
 The logic for the braking system is implemented when the proximity sensor detects an obstacle.
 </details>
 
-## Working of the project
+### Working of the project
 <details>
 The proximity sensor detects how far an obstacle by giving an analog output in the voltage range 0-5V. 5V corresponds to obstacle being very near to our vehicle.
 An ADC converter is integrated into the circuit which takes the analogue output of the proximity sensor and converts it to a digital signal.
@@ -66,14 +59,14 @@ The counter is used to calculate and modify the speed of the vehicle based on th
 
 </details>
 
-## Logisim Circuit Diagram
+### Logisim Circuit Diagram
 
 <details>
 
    ![image](https://github.com/Poorvab2525/Team-4/assets/147530829/30060ef5-7879-4276-b8fa-ede799848ec9)
 </details>
 
-## Verilog Code
+### Verilog Code
 
 <details>
 
